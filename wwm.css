@@ -1,0 +1,94 @@
+
+.menu{
+  background-color:tan;
+  border-radius: 10px;
+  
+}
+
+.form{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 350px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50% );
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.form h1{
+    background-color: white;
+    color: orangered;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3px;
+}
+.form input{
+  width: 330px; 
+  height: 30px; 
+  background:transparent;
+  border-bottom: 2px solid blue;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+font-size:20px;
+color: white;
+font-family: Arial;
+}
+.login{
+  width: 330px;  
+  height: 45px;
+  background: orange;
+  color: white;
+  margin-top: 40px;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:0.4s ease ;  
+}
+.login:hover{
+  background: white;
+  color: orange;  
+}
+.sign{
+  background-color: transparent;
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: Arial;
+}
+.sign a{
+   text-decoration: none;
+  color:blue;
+  font-weight: bolder;
+  cursor: pointer;
+ 
+}
+
+.instead{
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-family: Arial;
+  font-style: italic;
+}
+.form2{
+  
+  width: 350px;
+  height: 400px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50% );
+  position: absolute;
+  left:700px ;
+  top: 140px;
+  border-radius: 10px;
+}
